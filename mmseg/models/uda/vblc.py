@@ -18,10 +18,10 @@ from mmseg.models.utils.night_fog_filter import night_fog_filter
 
 
 @UDA.register_module()
-class ACDCDACSEMANightFogSaturationW4(UDADecorator):
+class VBLC(UDADecorator):
 
     def __init__(self, **cfg):
-        super(ACDCDACSEMANightFogSaturationW4, self).__init__(**cfg)
+        super(VBLC, self).__init__(**cfg)
         self.local_iter = 0
         self.debug_img_interval = cfg.get('debug_img_interval', None)
         self.ignore_index = 255

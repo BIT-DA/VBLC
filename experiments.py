@@ -153,7 +153,7 @@ def generate_experiment_cfgs(id):
     # Set some defaults
     # -------------------------------------------------------------------------
     cfgs = []
-    method_name = 'acdc'
+    method_name = 'vblc'
     n_gpus = 1
     batch_size = 2
     iters = 40000
@@ -204,7 +204,7 @@ def generate_experiment_cfgs(id):
         datasets = [
             ('cityscapes', 'acdc')
         ]
-        udas = ['acdc_dacs_ema_night_fog_saturation_w4']
+        udas = ['vblc']
         rcs_T = 0.01
         blur = True
         color_jitter = True
@@ -223,7 +223,7 @@ def generate_experiment_cfgs(id):
         datasets = [
             ('cityscapes', 'acdc')
         ]
-        udas = ['acdc_dacs_ema_night_fog_saturation_w4']
+        udas = ['vblc']
         rcs_T = 0.01
         blur = True
         color_jitter = True
@@ -243,7 +243,7 @@ def generate_experiment_cfgs(id):
         datasets = [
             ('cityscapes', 'foggyraincityscapes')
         ]
-        udas = ['acdc_dacs_ema_night_fog_saturation_w4']
+        udas = ['vblc']
         rcs_T = 0.01
         blur = True
         color_jitter = True
@@ -262,7 +262,7 @@ def generate_experiment_cfgs(id):
         datasets = [
             ('cityscapes', 'foggyraincityscapes')
         ]
-        udas = ['acdc_dacs_ema_night_fog_saturation_w4']
+        udas = ['vblc']
         rcs_T = 0.01
         blur = True
         color_jitter = True
