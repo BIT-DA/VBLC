@@ -160,15 +160,15 @@ def generate_experiment_cfgs(id):
     debug_img_interval = 1000
     pretrained_source = None
     opt, lr, schedule, pmult = 'adamw', 0.00006, 'poly10warm', True
-    crop = '512x512'
+    crop = '640x640'
     suffix = ''
     datasets = [
-        ('gta', 'cityscapes'),
+        ('cityscapes', 'acdc'),
     ]
     architecture = None
     workers_per_gpu = 2  # avoid failure in training
     rcs_T = None
-    pseudo_threshold = 0.968
+    pseudo_threshold = 0.9
     blur = False
     color_jitter = False
     # -------------------------------------------------------------------------
@@ -185,7 +185,6 @@ def generate_experiment_cfgs(id):
             ('cityscapes', 'acdc'),
             ('cityscapes', 'foggyraincityscapes'),
         ]
-        crop = '640x640'
         udas = ['test_uda']
         for (source, target), (architecture, backbone), uda, seed in \
                 itertools.product(datasets, models, udas, seeds):
@@ -205,9 +204,7 @@ def generate_experiment_cfgs(id):
         datasets = [
             ('cityscapes', 'acdc')
         ]
-        crop = '640x640'
         udas = ['acdc_dacs_ema_night_fog_saturation_w4']
-        pseudo_threshold = 0.9
         rcs_T = 0.01
         blur = True
         color_jitter = True
@@ -226,9 +223,7 @@ def generate_experiment_cfgs(id):
         datasets = [
             ('cityscapes', 'acdc')
         ]
-        crop = '640x640'
         udas = ['acdc_dacs_ema_night_fog_saturation_w4']
-        pseudo_threshold = 0.9
         rcs_T = 0.01
         blur = True
         color_jitter = True
@@ -248,9 +243,7 @@ def generate_experiment_cfgs(id):
         datasets = [
             ('cityscapes', 'foggyraincityscapes')
         ]
-        crop = '640x640'
         udas = ['acdc_dacs_ema_night_fog_saturation_w4']
-        pseudo_threshold = 0.9
         rcs_T = 0.01
         blur = True
         color_jitter = True
@@ -269,9 +262,7 @@ def generate_experiment_cfgs(id):
         datasets = [
             ('cityscapes', 'foggyraincityscapes')
         ]
-        crop = '640x640'
         udas = ['acdc_dacs_ema_night_fog_saturation_w4']
-        pseudo_threshold = 0.9
         rcs_T = 0.01
         blur = True
         color_jitter = True
