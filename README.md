@@ -203,7 +203,7 @@ The mapping between `<exp_id>` and tasks:
 |    `3`     | Cityscapes &rarr; FoggyCityscapes + RainCityscapes | MiT-B5     |
 |    `4`     | Cityscapes &rarr; FoggyCityscapes + RainCityscapes | ResNet-101 |
 
-After training, the models can be validated and tested following [VBLC Evaluation](#vblc-evaluation). Note that the training results are located in `./work_dirs`. The config filename should look like: `220822_2219_city2acdc_acdc_dacs_ema_night_fog_saturation_w4_rcs001_daformer_sepaspp_logit_constraint_mitb5_poly10warm_s0_e0ac5.json`, and the model file has suffix `.pth`.
+After training, the models can be validated and tested following [VBLC Evaluation](#vblc-evaluation). Note that the training results are located in `./work_dirs`. The config filename should look like: `220824_2303_city2acdc_vblc_rcs001_daformer_sepaspp_logit_constraint_mitb5_poly10warm_s0_4b56d.json`, and the model file has suffix `.pth`.
 
 <div align="right">
 <b><a href="#overview">↥</a></b>
