@@ -1,0 +1,13 @@
+cityscapesScripts==2.2.0
+kornia==0.5.8
+matplotlib==3.4.2
+numpy==1.23.1
+opencv_python==4.4.0.46
+packaging==21.3
+Pillow==9.2.0
+prettytable==2.1.0
+seaborn==0.11.1
+setproctitle==1.2.3
+timm==0.5.4
+torch==1.10.2+cu113
+torchvision==0.11.3+cu113
