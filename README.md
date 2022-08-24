@@ -122,21 +122,21 @@ VBLC
 
 ## Model Zoo
 
-We provide pre-trained models of both Domain Adaptive Semantic Segmentation tasks through [Google Drive](), [Baidu Netdisk](), and [Aliyun Drive]().
+We provide pre-trained models of both Domain Adaptive Semantic Segmentation tasks through [Google Drive](https://drive.google.com/drive/folders/1lqnUBRSAF-fKIUI2VsO3tYgRAa43eurN?usp=sharing), [Baidu Netdisk](), and [Aliyun Drive]().
 
 ### Task 1: Cityscapes &rarr; ACDC
 
 | model name                  | backbone   | mIoU (test) | mIoU (val) | checkpoint download                 |
 | :-------------------------- | :--------- | :---------- | :--------- | :---------------------------------- |
-| vblc_city2acdc_dlv2.pth     | ResNet-101 | 47.8        | 46.0       | [Google]() / [Baidu]() / [Aliyun]() |
-| vblc_city2acdc_daformer.pth | MiT-B5     | 64.2        | 63.7       | [Google]() / [Baidu]() / [Aliyun]() |
+| vblc_city2acdc_dlv2.pth     | ResNet-101 | 47.8        | 46.0       | [Google](https://drive.google.com/drive/folders/1EZf-UWqgoWTst4OkKXAgdDAgVKih6Yit?usp=sharing) / [Baidu]() / [Aliyun]() |
+| vblc_city2acdc_daformer.pth | MiT-B5     | 64.2        | 63.7       | [Google](https://drive.google.com/drive/folders/1rbUpKYMGbDtf2XjY_sL_F8tOVOy3s0vo?usp=sharing) / [Baidu]() / [Aliyun]() |
 
 ### Task 2: Cityscapes &rarr; FoggyCityscapes + RainCityscapes
 
 | model name                       | backbone   | mIoU (val) | checkpoint download                 |
 | :------------------------------- | :--------- | :--------- | :---------------------------------- |
-| vblc_city2foggyrain_dlv2.pth     | ResNet-101 | 74.9       | [Google]() / [Baidu]() / [Aliyun]() |
-| vblc_city2foggyrain_daformer.pth | MiT-B5     | 79.8       | [Google]() / [Baidu]() / [Aliyun]() |
+| vblc_city2foggyrain_dlv2.pth     | ResNet-101 | 74.9       | [Google](https://drive.google.com/drive/folders/1iWbQWWjwoMVeejDpBjk6jTSPzi4dr19_?usp=sharing) / [Baidu]() / [Aliyun]() |
+| vblc_city2foggyrain_daformer.pth | MiT-B5     | 79.8       | [Google](https://drive.google.com/drive/folders/1wXMGYr2Qvzgvkxt1W3PdZC8MYX4pPBVy?usp=sharing) / [Baidu]() / [Aliyun]() |
 
 <div align="right">
 <b><a href="#overview">↥</a></b>
