@@ -122,21 +122,21 @@ VBLC
 
 ## Model Zoo
 
-We provide pre-trained models of both Domain Adaptive Semantic Segmentation tasks through [Google Drive](https://drive.google.com/drive/folders/1lqnUBRSAF-fKIUI2VsO3tYgRAa43eurN?usp=sharing), [Baidu Netdisk](), and [Aliyun Drive]().
+We provide pretrained models of both Domain Adaptive Semantic Segmentation tasks through [Google Drive](https://drive.google.com/drive/folders/1lqnUBRSAF-fKIUI2VsO3tYgRAa43eurN?usp=sharing) and [Baidu Netdisk](https://pan.baidu.com/s/1xYVQQHAZKKszKWCQi7DM_w) (access code: `vblc`).
 
 ### Task 1: Cityscapes &rarr; ACDC
 
-| model name                  | backbone   | mIoU (test) | mIoU (val) | checkpoint download                 |
-| :-------------------------- | :--------- | :---------- | :--------- | :---------------------------------- |
-| vblc_city2acdc_dlv2.pth     | ResNet-101 | 47.8        | 46.0       | [Google](https://drive.google.com/drive/folders/1EZf-UWqgoWTst4OkKXAgdDAgVKih6Yit?usp=sharing) / [Baidu]() / [Aliyun]() |
-| vblc_city2acdc_daformer.pth | MiT-B5     | 64.2        | 63.7       | [Google](https://drive.google.com/drive/folders/1rbUpKYMGbDtf2XjY_sL_F8tOVOy3s0vo?usp=sharing) / [Baidu]() / [Aliyun]() |
+| model name                  | backbone   | mIoU (test) | mIoU (val) | checkpoint download |
+| :-------------------------- | :--------- | :---------- | :--------- | :------------------ |
+| vblc_city2acdc_dlv2.pth     | ResNet-101 | 47.8        | 46.0       | [Google](https://drive.google.com/drive/folders/1EZf-UWqgoWTst4OkKXAgdDAgVKih6Yit?usp=sharing) / [Baidu](https://pan.baidu.com/s/1dIRY5KkJgg1Cw_dBcsdzPA) |
+| vblc_city2acdc_daformer.pth | MiT-B5     | 64.2        | 63.7       | [Google](https://drive.google.com/drive/folders/1rbUpKYMGbDtf2XjY_sL_F8tOVOy3s0vo?usp=sharing) / [Baidu](https://pan.baidu.com/s/15ctZ4diEYnQ4A_4IsfdbKQ) |
 
 ### Task 2: Cityscapes &rarr; FoggyCityscapes + RainCityscapes
 
-| model name                       | backbone   | mIoU (val) | checkpoint download                 |
-| :------------------------------- | :--------- | :--------- | :---------------------------------- |
-| vblc_city2foggyrain_dlv2.pth     | ResNet-101 | 74.9       | [Google](https://drive.google.com/drive/folders/1iWbQWWjwoMVeejDpBjk6jTSPzi4dr19_?usp=sharing) / [Baidu]() / [Aliyun]() |
-| vblc_city2foggyrain_daformer.pth | MiT-B5     | 79.8       | [Google](https://drive.google.com/drive/folders/1wXMGYr2Qvzgvkxt1W3PdZC8MYX4pPBVy?usp=sharing) / [Baidu]() / [Aliyun]() |
+| model name                       | backbone   | mIoU (val) | checkpoint download |
+| :------------------------------- | :--------- | :--------- | :------------------ |
+| vblc_city2foggyrain_dlv2.pth     | ResNet-101 | 74.9       | [Google](https://drive.google.com/drive/folders/1iWbQWWjwoMVeejDpBjk6jTSPzi4dr19_?usp=sharing) / [Baidu](https://pan.baidu.com/s/1f6PTdcKXxy_qR4kiareK0w) |
+| vblc_city2foggyrain_daformer.pth | MiT-B5     | 79.8       | [Google](https://drive.google.com/drive/folders/1wXMGYr2Qvzgvkxt1W3PdZC8MYX4pPBVy?usp=sharing) / [Baidu](https://pan.baidu.com/s/1Etv5MjPrrMmMzN2SX-ZAnQ) |
 
 <div align="right">
 <b><a href="#overview">↥</a></b>
@@ -144,7 +144,7 @@ We provide pre-trained models of both Domain Adaptive Semantic Segmentation task
 
 ## VBLC Evaluation
 
-To evaluate the pre-trained models on the **validation set**, please run as follows:
+To evaluate the pretrained models on the **validation set**, please run as follows:
 
 ```bash
 python -m tools.test /path/to/config /path/to/checkpoint --eval mIoU --val
@@ -211,7 +211,7 @@ After training, the models can be validated and tested following [VBLC Evaluatio
 
 ## How to Add VBLC to your Self-Training UDA Code
 
-- To include the *visiblity boost module*, take a look at `night_fog_filter` method in `mmseg/models/utils/night_fog_filter.py`.
+- To include the *visibility boost module*, take a look at `night_fog_filter` method in `mmseg/models/utils/night_fog_filter.py`.
 - To include the *logit constraint learning* loss, take a look at `mmseg/models/losses/logit_constraint_loss.py` for implementation details.
 
 <div align="right">
@@ -220,7 +220,7 @@ After training, the models can be validated and tested following [VBLC Evaluatio
 
 ## Acknowledgements
 
-This project is based on the following open-source projects. We thank their authors for making the souce code publicly avaiable.
+This project is based on the following open-source projects. We thank their authors for making the source code publicly available.
 
 - [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)
 - [SegFormer](https://github.com/NVlabs/SegFormer)
