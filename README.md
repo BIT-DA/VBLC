@@ -122,21 +122,21 @@ VBLC
 
 ## Model Zoo
 
-We provide pretrained models of both Domain Adaptive Semantic Segmentation tasks through [Google Drive](https://drive.google.com/drive/folders/1lqnUBRSAF-fKIUI2VsO3tYgRAa43eurN?usp=sharing) and [Baidu Netdisk](https://pan.baidu.com/s/1xYVQQHAZKKszKWCQi7DM_w) (access code: `vblc`).
+We provide pretrained models of both Domain Adaptive Semantic Segmentation tasks through [Google Drive](https://drive.google.com/drive/folders/1lqnUBRSAF-fKIUI2VsO3tYgRAa43eurN?usp=sharing) and [Baidu Netdisk](https://pan.baidu.com/s/1TXA0egGCJ6iA44mSrXHAMQ) (access code: `VBLC`).
 
 ### Task 1: Cityscapes &rarr; ACDC
 
 | model name                  | backbone   | mIoU (test) | mIoU (val) | checkpoint download |
 | :-------------------------- | :--------- | :---------- | :--------- | :------------------ |
-| vblc_city2acdc_dlv2.pth     | ResNet-101 | 47.8        | 46.0       | [Google](https://drive.google.com/drive/folders/1EZf-UWqgoWTst4OkKXAgdDAgVKih6Yit?usp=sharing) / [Baidu](https://pan.baidu.com/s/1dIRY5KkJgg1Cw_dBcsdzPA) |
-| vblc_city2acdc_daformer.pth | MiT-B5     | 64.2        | 63.7       | [Google](https://drive.google.com/drive/folders/1rbUpKYMGbDtf2XjY_sL_F8tOVOy3s0vo?usp=sharing) / [Baidu](https://pan.baidu.com/s/15ctZ4diEYnQ4A_4IsfdbKQ) |
+| vblc_city2acdc_dlv2.pth     | ResNet-101 | 47.8        | 46.0       | [Google](https://drive.google.com/drive/folders/1EZf-UWqgoWTst4OkKXAgdDAgVKih6Yit?usp=sharing) / [Baidu](https://pan.baidu.com/s/1LxapqMSYcU7L9DnRLNWOqg) (acc: `VBLC`) |
+| vblc_city2acdc_daformer.pth | MiT-B5     | 64.2        | 63.7       | [Google](https://drive.google.com/drive/folders/1rbUpKYMGbDtf2XjY_sL_F8tOVOy3s0vo?usp=sharing) / [Baidu](https://pan.baidu.com/s/1UjY2jw4uK2uu15Kxu0I8LA) (acc: `VBLC`) |
 
 ### Task 2: Cityscapes &rarr; FoggyCityscapes + RainCityscapes
 
 | model name                       | backbone   | mIoU (val) | checkpoint download |
 | :------------------------------- | :--------- | :--------- | :------------------ |
-| vblc_city2foggyrain_dlv2.pth     | ResNet-101 | 74.9       | [Google](https://drive.google.com/drive/folders/1iWbQWWjwoMVeejDpBjk6jTSPzi4dr19_?usp=sharing) / [Baidu](https://pan.baidu.com/s/1f6PTdcKXxy_qR4kiareK0w) |
-| vblc_city2foggyrain_daformer.pth | MiT-B5     | 79.8       | [Google](https://drive.google.com/drive/folders/1wXMGYr2Qvzgvkxt1W3PdZC8MYX4pPBVy?usp=sharing) / [Baidu](https://pan.baidu.com/s/1Etv5MjPrrMmMzN2SX-ZAnQ) |
+| vblc_city2foggyrain_dlv2.pth     | ResNet-101 | 74.9       | [Google](https://drive.google.com/drive/folders/1iWbQWWjwoMVeejDpBjk6jTSPzi4dr19_?usp=sharing) / [Baidu](https://pan.baidu.com/s/1YpTyG15AtbgQZPB2iVnF2A) (acc: `VBLC`) |
+| vblc_city2foggyrain_daformer.pth | MiT-B5     | 79.8       | [Google](https://drive.google.com/drive/folders/1wXMGYr2Qvzgvkxt1W3PdZC8MYX4pPBVy?usp=sharing) / [Baidu](https://pan.baidu.com/s/1K7rLAUsT5_-jDNkU3Kx-VQ) (acc: `VBLC`) |
 
 <div align="right">
 <b><a href="#overview">↥</a></b>
