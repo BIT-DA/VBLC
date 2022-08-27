@@ -153,10 +153,10 @@ python -m tools.test /path/to/config /path/to/checkpoint --eval mIoU --val
 <details>
 <summary>Example</summary>
 
-For example, if you download `vblc_city2acdc_daformer.pth` along with its config json file `vblc_city2acdc_daformer.json` into folder `./checkpoints/city2acdc/`, then the evaluation script should be like:
+For example, if you download `vblc_city2acdc_daformer.pth` along with its config json file `vblc_city2acdc_daformer.json` into folder `./checkpoints/vblc_city2acdc_daformer/`, then the evaluation script should be like:
 
 ```bash
-python -m tools.test ./checkpoints/city2acdc/vblc_city2acdc_daformer.json ./checkpoints/city2acdc/vblc_city2acdc_daformer.pth --eval mIoU --val
+python -m tools.test ./checkpoints/vblc_city2acdc_daformer/vblc_city2acdc_daformer.json ./checkpoints/vblc_city2acdc_daformer/vblc_city2acdc_daformer.pth --eval mIoU --val
 ```
 
 </details>
@@ -173,7 +173,7 @@ python -m tools.test /path/to/config /path/to/checkpoint --format-only --eval-op
 For the aforementioned example, the corresponding script is:
 
 ```bash
-python -m tools.test ./checkpoints/city2acdc/vblc_city2acdc_daformer.json ./checkpoints/city2acdc/vblc_city2acdc_daformer.pth --format-only --eval-options imgfile_prefix=./test_results/labelTrainIds do_palette=False
+python -m tools.test ./checkpoints/vblc_city2acdc_daformer/vblc_city2acdc_daformer.json ./checkpoints/vblc_city2acdc_daformer/vblc_city2acdc_daformer.pth --format-only --eval-options imgfile_prefix=./test_results/labelTrainIds do_palette=False
 ```
 
 </details>
