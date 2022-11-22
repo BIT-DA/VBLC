@@ -1,9 +1,12 @@
-# VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions
+# VBLC for Domain Adaptive Semantic Segmentation under Adverse Conditions
 
-by Mingjia Li, [Binhui Xie](https://binhuixie.github.io), [Shuang Li](https://shuangli.xyz), [Chi Harold Liu](https://scholar.google.com/citations?user=3IgFTEkAAAAJ&hl=en) and [Xinjing Cheng](https://scholar.google.com/citations?user=8QbRVCsAAAAJ&hl=en)
+Official PyTorch implementation of **VBLC**, from the paper:
 
-**[[Arxiv](https://arxiv.org/abs/???)]**
-**[[Paper](https://arxiv.org/pdf/???.pdf)]**
+[VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions](https://arxiv.org/abs/???). AAAI2023.
+
+[Mingjia Li](https://kiwixr.github.io), [Binhui Xie](https://binhuixie.github.io), [Shuang Li](https://shuangli.xyz), [Chi Harold Liu](https://scholar.google.com/citations?user=3IgFTEkAAAAJ&hl=en) and [Xinjing Cheng](https://scholar.google.com/citations?user=8QbRVCsAAAAJ&hl=en)
+
+**[[arXiv](https://arxiv.org/abs/???)]**
 
 <!-- TOC -->
 
@@ -13,8 +16,8 @@ by Mingjia Li, [Binhui Xie](https://binhuixie.github.io), [Shuang Li](https://sh
   - [Download Datasets](#download-datasets)
   - [Setup Datasets](#setup-datasets)
 - [Model Zoo](#model-zoo)
-  - [Task 1: Cityscapes &rarr; ACDC](#task-1-cityscapes--acdc)
-  - [Task 2: Cityscapes &rarr; FoggyCityscapes + RainCityscapes](#task-2-cityscapes--foggycityscapes--raincityscapes)
+  - [Task 1: Cityscapes → ACDC](#task-1-cityscapes--acdc)
+  - [Task 2: Cityscapes → FoggyCityscapes + RainCityscapes](#task-2-cityscapes--foggycityscapes--raincityscapes)
 - [VBLC Evaluation](#vblc-evaluation)
 - [VBLC Training](#vblc-training)
 - [How to Add VBLC to your Self-Training UDA Code](#how-to-add-vblc-to-your-self-training-uda-code)
@@ -31,7 +34,7 @@ The *visibility boost module* is introduced in the input space to narrow the gap
 
 Experiments on two normal-to-adverse domain adaptation benchmarks, i.e., Cityscapes &rarr; ACDC and Cityscapes &rarr; FoggyCityscapes + RainCityscapes verify the effectiveness of VBLC, where it establishes the new state of the art.
 
-Extensive analysis and visualizations can be found in our [paper](https://arxiv.org/pdf/???.pdf).
+Extensive analysis and visualizations can be found in our [paper](https://arxiv.org/abs/???).
 
 <div align="right">
 <b><a href="#overview">↥</a></b>
@@ -239,7 +242,12 @@ This project is based on the following open-source projects. We thank their auth
 If you find this work helpful to your research, please consider citing the paper:
 
 ```bibtex
-@inproceedings{
+@inproceedings{li2023vblc,
+  title={VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions},
+  author={Li, Mingjia and Xie, Binhui and Li, Shuang and Liu, Chi Harold and Cheng, Xinjing},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  pages={},
+  year={2023}
 }
 ```
 
