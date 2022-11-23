@@ -2,11 +2,11 @@
 
 Official PyTorch implementation of **VBLC**, from the paper:
 
-[VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions](https://arxiv.org/abs/???). AAAI2023.
+[VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions](https://arxiv.org/abs/2211.12256). AAAI2023.
 
 [Mingjia Li](https://kiwixr.github.io), [Binhui Xie](https://binhuixie.github.io), [Shuang Li](https://shuangli.xyz), [Chi Harold Liu](https://scholar.google.com/citations?user=3IgFTEkAAAAJ&hl=en) and [Xinjing Cheng](https://scholar.google.com/citations?user=8QbRVCsAAAAJ&hl=en)
 
-**[[arXiv](https://arxiv.org/abs/???)]**
+**[[arXiv](https://arxiv.org/abs/2211.12256)]**
 
 <!-- TOC -->
 
@@ -21,23 +21,21 @@ Official PyTorch implementation of **VBLC**, from the paper:
 - [VBLC Evaluation](#vblc-evaluation)
 - [VBLC Training](#vblc-training)
 - [How to Add VBLC to your Self-Training UDA Code](#how-to-add-vblc-to-your-self-training-uda-code)
-- [Acknowledgements](#acknowledgements)
+- [Acknowledgments](#acknowledgments)
 - [Citation](#citation)
 
 <!-- /TOC -->
 
 ## Overview
 
-We propose VBLC to tackle the problem of domain adaptive semantic segmentation under adverse conditions. VBLC explores the potential of getting rid of reference images and resolving the mixture of adverse conditions simultaneously.
+We propose **VBLC** to tackle the problem of domain adaptive semantic segmentation under adverse conditions. VBLC explores the potential of *getting rid of reference images* and *resolving the mixture of adverse conditions* simultaneously.
 
-The *visibility boost module* is introduced in the input space to narrow the gap brought about by poor visibility, while the *logit constraint learning* loss is devised to relieve the pain of overconfidence commonly witnessed in self-training schemes.
+The ***visibility boost module*** is introduced in the input space to narrow the gap brought about by poor visibility, while the ***logit constraint learning*** loss is devised to relieve the pain of overconfidence common in self-training schemes.
 
-Experiments on two normal-to-adverse domain adaptation benchmarks, i.e., Cityscapes &rarr; ACDC and Cityscapes &rarr; FoggyCityscapes + RainCityscapes verify the effectiveness of VBLC, where it establishes the new state of the art.
-
-Extensive analysis and visualizations can be found in our [paper](https://arxiv.org/abs/???).
+Extensive analysis and visualizations can be found in our [paper](https://arxiv.org/abs/2211.12256).
 
 <div align="right">
-<b><a href="#overview">↥</a></b>
+<b><a href="#vblc-for-domain-adaptive-semantic-segmentation-under-adverse-conditions">↥</a></b>
 </div>
 
 ## Installation
@@ -75,7 +73,7 @@ pip install mmcv-full==1.5.0 -f https://download.openmmlab.com/mmcv/dist/cu113/t
 The environment is now fully prepared.
 
 <div align="right">
-<b><a href="#overview">↥</a></b>
+<b><a href="#vblc-for-domain-adaptive-semantic-segmentation-under-adverse-conditions">↥</a></b>
 </div>
 
 ## Datasets Preparation
@@ -120,7 +118,7 @@ VBLC
 ```
 
 <div align="right">
-<b><a href="#overview">↥</a></b>
+<b><a href="#vblc-for-domain-adaptive-semantic-segmentation-under-adverse-conditions">↥</a></b>
 </div>
 
 ## Model Zoo
@@ -142,7 +140,7 @@ We provide pretrained models of both Domain Adaptive Semantic Segmentation tasks
 | vblc_city2foggyrain_daformer.pth | MiT-B5     | 79.8       | [Google](https://drive.google.com/drive/folders/1wXMGYr2Qvzgvkxt1W3PdZC8MYX4pPBVy?usp=sharing) / [Baidu](https://pan.baidu.com/s/1K7rLAUsT5_-jDNkU3Kx-VQ) (acc: `VBLC`) |
 
 <div align="right">
-<b><a href="#overview">↥</a></b>
+<b><a href="#vblc-for-domain-adaptive-semantic-segmentation-under-adverse-conditions">↥</a></b>
 </div>
 
 ## VBLC Evaluation
@@ -184,7 +182,7 @@ python -m tools.test ./checkpoints/vblc_city2acdc_daformer/vblc_city2acdc_daform
 The test results should be under folder `/path/prefix/labelTrainIds`, and can then be zipped and submitted to [ACDC test server](https://acdc.vision.ee.ethz.ch/submit) for the test score.
 
 <div align="right">
-<b><a href="#overview">↥</a></b>
+<b><a href="#vblc-for-domain-adaptive-semantic-segmentation-under-adverse-conditions">↥</a></b>
 </div>
 
 
@@ -211,7 +209,7 @@ The mapping between `<exp_id>` and tasks:
 After training, the models can be validated and tested following [VBLC Evaluation](#vblc-evaluation). Note that the training results are located in `./work_dirs`. The config filename should look like: `220824_2303_city2acdc_vblc_rcs001_daformer_sepaspp_logit_constraint_mitb5_poly10warm_s0_4b56d.json`, and the model file has suffix `.pth`.
 
 <div align="right">
-<b><a href="#overview">↥</a></b>
+<b><a href="#vblc-for-domain-adaptive-semantic-segmentation-under-adverse-conditions">↥</a></b>
 </div>
 
 ## How to Add VBLC to your Self-Training UDA Code
@@ -220,10 +218,10 @@ After training, the models can be validated and tested following [VBLC Evaluatio
 - To include the *logit constraint learning* loss, take a look at `mmseg/models/losses/logit_constraint_loss.py` for implementation details.
 
 <div align="right">
-<b><a href="#overview">↥</a></b>
+<b><a href="#vblc-for-domain-adaptive-semantic-segmentation-under-adverse-conditions">↥</a></b>
 </div>
 
-## Acknowledgements
+## Acknowledgments
 
 This project is based on the following open-source projects. We thank their authors for making the source code publicly available.
 
@@ -234,7 +232,7 @@ This project is based on the following open-source projects. We thank their auth
 - [IA-YOLO](https://github.com/wenyyu/Image-Adaptive-YOLO)
 
 <div align="right">
-<b><a href="#overview">↥</a></b>
+<b><a href="#vblc-for-domain-adaptive-semantic-segmentation-under-adverse-conditions">↥</a></b>
 </div>
 
 ## Citation
@@ -252,5 +250,5 @@ If you find this work helpful to your research, please consider citing the paper
 ```
 
 <div align="right">
-<b><a href="#overview">↥</a></b>
+<b><a href="#vblc-for-domain-adaptive-semantic-segmentation-under-adverse-conditions">↥</a></b>
 </div>
