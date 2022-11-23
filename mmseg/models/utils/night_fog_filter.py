@@ -1,4 +1,8 @@
 # filter adapted from https://github.com/wenyyu/Image-Adaptive-YOLO
+# Licensed under the Apache License, Version 2.0
+# A copy of the license is available at resources/license_iayolo
+# Modifications: Add adaptive param
+
 import kornia.color
 import torch
 import math
@@ -56,9 +60,6 @@ def process(im, defog_A, IcA, mode='hsv-s-w4'):
 
 def blur_filter(X, mode):
     X = X.permute(1, 2, 0).contiguous()
-    # dark = torch.zeros((X.shape[0], X.shape[1]))
-    # defog_A = torch.zeros((X.shape[2]))
-    # IcA = torch.zeros((X.shape[0], X.shape[1]))
 
     dark = DarkChannel(X)
     defog_A = AtmLight(X, dark)

@@ -1,14 +1,11 @@
 # VBLC for Domain Adaptive Semantic Segmentation under Adverse Conditions
 
-Official PyTorch implementation of **VBLC**, from the paper:
-
 [VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions](https://arxiv.org/abs/2211.12256). AAAI2023.
 
-[Mingjia Li](https://kiwixr.github.io), [Binhui Xie](https://binhuixie.github.io), [Shuang Li](https://shuangli.xyz), [Chi Harold Liu](https://scholar.google.com/citations?user=3IgFTEkAAAAJ&hl=en) and [Xinjing Cheng](https://scholar.google.com/citations?user=8QbRVCsAAAAJ&hl=en)
+**by [Mingjia Li](https://kiwixr.github.io), [Binhui Xie](https://binhuixie.github.io), [Shuang Li](https://shuangli.xyz), [Chi Harold Liu](https://scholar.google.com/citations?user=3IgFTEkAAAAJ&hl=en) and [Xinjing Cheng](https://scholar.google.com/citations?user=8QbRVCsAAAAJ&hl=en)**
 
-**[[arXiv](https://arxiv.org/abs/2211.12256)]**
-
----
+<!-- **[[arXiv](https://arxiv.org/abs/2211.12256)]** -->
+[![arXiv](https://img.shields.io/badge/-arXiv-%23B31B1B)](https://arxiv.org/abs/2211.12256)
 
 <!-- TOC -->
 
@@ -227,11 +224,13 @@ After training, the models can be validated and tested following [VBLC Evaluatio
 
 This project is based on the following open-source projects. We thank their authors for making the source code publicly available.
 
-- [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)
-- [SegFormer](https://github.com/NVlabs/SegFormer)
-- [DAFormer](https://github.com/lhoyer/DAFormer)
-- [DACS](https://github.com/vikolss/DACS)
-- [IA-YOLO](https://github.com/wenyyu/Image-Adaptive-YOLO)
+- [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) (Apache License 2.0, [license](resources/license_mmseg))
+- [SegFormer](https://github.com/NVlabs/SegFormer) (NVIDIA Source Code License, [license](resources/license_segformer))
+- [DAFormer](https://github.com/lhoyer/DAFormer) (Apache License 2.0, [license](resources/license_daformer))
+- [DACS](https://github.com/vikolss/DACS) (MIT License, [license](resources/license_dacs))
+- [IA-YOLO](https://github.com/wenyyu/Image-Adaptive-YOLO) (Apache License 2.0, [license](resources/license_iayolo))
+
+:star: Also see our [SePiCo](https://github.com/BIT-DA/SePiCo) :star:
 
 <div align="right">
 <b><a href="#vblc-for-domain-adaptive-semantic-segmentation-under-adverse-conditions">↥</a></b>

@@ -1,3 +1,8 @@
+# ---------------------------------------------------------------
+# Copyright (c) 2021-2022 ETH Zurich, Lukas Hoyer. All rights reserved.
+# Licensed under the Apache License, Version 2.0
+# ---------------------------------------------------------------
+# A copy of the license is available at resources/license_daformer
 # Modifications: Support for soft label in simple_test
 
 from copy import deepcopy

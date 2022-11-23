@@ -1,3 +1,5 @@
+# Copyright (c) OpenMMLab. All rights reserved.
+# Modifications: Add different palettes
 import numpy as np
 import torch
 from matplotlib import pyplot as plt

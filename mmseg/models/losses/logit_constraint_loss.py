@@ -1,4 +1,8 @@
-# Copyright (c) OpenMMLab. All rights reserved.
+# ---------------------------------------------------------------
+# Copyright (c) 2022 BIT-DA, Mingjia Li. All rights reserved.
+# Licensed under the Apache License, Version 2.0
+# ---------------------------------------------------------------
+
 import warnings
 
 import torch
