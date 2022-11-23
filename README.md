@@ -8,6 +8,8 @@ Official PyTorch implementation of **VBLC**, from the paper:
 
 **[[arXiv](https://arxiv.org/abs/2211.12256)]**
 
+---
+
 <!-- TOC -->
 
 - [Overview](#overview)
