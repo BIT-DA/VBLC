@@ -8,8 +8,9 @@
 [![arXiv](https://img.shields.io/badge/Paper-arXiv-%23B31B1B?style=flat-square)](https://arxiv.org/abs/2211.12256)&nbsp;&nbsp;
 [![Bilibili](https://img.shields.io/badge/Video-Bilibili-%2300A1D6?logo=bilibili&style=flat-square)](https://www.bilibili.com/video/av692744964)&nbsp;&nbsp;
 [![YouTube](https://img.shields.io/badge/Video-YouTube-%23FF0000?logo=youtube&style=flat-square)](https://www.youtube.com/watch?v=o0voyaQ3FzM)&nbsp;&nbsp;
+[![Dropbox](https://img.shields.io/badge/Poster-Dropbox-%230061FF?logo=dropbox&style=flat-square)](https://www.dropbox.com/s/pvb2701k2gr9cfb/aaai23poster.pdf?dl=0)&nbsp;&nbsp;
 
-> Update on 2023/01/12: Video available.
+> Update on 2023/01/12: Video and poster available.
 
 <!-- TOC -->
 
