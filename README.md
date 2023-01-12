@@ -5,7 +5,11 @@
 **by [Mingjia Li](https://kiwixr.github.io), [Binhui Xie](https://binhuixie.github.io), [Shuang Li](https://shuangli.xyz), [Chi Harold Liu](https://scholar.google.com/citations?user=3IgFTEkAAAAJ&hl=en) and [Xinjing Cheng](https://scholar.google.com/citations?user=8QbRVCsAAAAJ&hl=en)**
 
 <!-- **[[arXiv](https://arxiv.org/abs/2211.12256)]** -->
-[![arXiv](https://img.shields.io/badge/-arXiv-%23B31B1B)](https://arxiv.org/abs/2211.12256)
+[![arXiv](https://img.shields.io/badge/Paper-arXiv-%23B31B1B?style=flat-square)](https://arxiv.org/abs/2211.12256)&nbsp;&nbsp;
+[![Bilibili](https://img.shields.io/badge/Video-Bilibili-%2300A1D6?logo=bilibili&style=flat-square)](https://www.bilibili.com/video/av692744964)&nbsp;&nbsp;
+[![YouTube](https://img.shields.io/badge/Video-YouTube-%23FF0000?logo=youtube&style=flat-square)](https://www.youtube.com/watch?v=o0voyaQ3FzM)&nbsp;&nbsp;
+
+> Update on 2023/01/12: Video available.
 
 <!-- TOC -->
 
