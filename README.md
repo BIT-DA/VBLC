@@ -1,6 +1,6 @@
 # VBLC for Domain Adaptive Semantic Segmentation under Adverse Conditions
 
-[VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions](https://arxiv.org/abs/2211.12256). AAAI2023.
+[VBLC: Visibility Boosting and Logit-Constraint Learning for Domain Adaptive Semantic Segmentation under Adverse Conditions](https://arxiv.org/abs/2211.12256). **AAAI 2023 Oral**.
 
 **by [Mingjia Li](https://kiwixr.github.io), [Binhui Xie](https://binhuixie.github.io), [Shuang Li](https://shuangli.xyz), [Chi Harold Liu](https://scholar.google.com/citations?user=3IgFTEkAAAAJ&hl=en) and [Xinjing Cheng](https://scholar.google.com/citations?user=8QbRVCsAAAAJ&hl=en)**
 
@@ -10,6 +10,8 @@
 [![YouTube](https://img.shields.io/badge/Video-YouTube-%23FF0000?logo=youtube&style=flat-square)](https://www.youtube.com/watch?v=o0voyaQ3FzM)&nbsp;&nbsp;
 [![Dropbox](https://img.shields.io/badge/Poster-Dropbox-%230061FF?logo=dropbox&style=flat-square)](https://www.dropbox.com/s/pvb2701k2gr9cfb/aaai23poster.pdf?dl=0)&nbsp;&nbsp;
 
+> Update on 2023/01/16: We are happy to announce that our VBLC was accepted for **Oral Presentation** at AAAI 2023. 🎉🎉🎉
+>
 > Update on 2023/01/12: Video and poster available.
 
 <!-- TOC -->
