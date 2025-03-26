@@ -65,6 +65,9 @@ conda install -y ipython pip
 Then, the dependencies can be installed by:
 
 ```bash
+# install torch
+pip install torch==1.10.2+cu113 torchvision==0.11.3+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+
 # install required packages
 pip install -r requirements.txt
 
